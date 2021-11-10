@@ -1,33 +1,38 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Drum Kit</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Drum - Kit</title>
 </head>
-
 <body>
+    <div class="container">
+        <h1 class="title">Drum Kit</h1>
+        <div class="drum_set">
+            <button class="drum a">a</button>
+            <button class="drum s">s</button>
+            <button class="drum d">d</button>
+            <button class="drum f">f</button>
+            <button class="drum g">g</button>
+            <button class="drum h">h</button>
+            <button class="drum j">j</button>
+            <button class="drum k">k</button>
+            <button class="drum l">l</button>
+        </div>
+        <div class="volume_control">
+            <i class="fa fa-volume-up fa-2x"></i>
+            <input type="range" min="0" max="100" id="volume_slider">
+        </div>
+        <div class="util_buttons">
+            <button id="util_buttons-learn"><a href="Tutorial.html">Tutorial of Drum-kit</a></button>
+            <button id="util_buttons_theme">Change Theme</button>
+            <button id="util_buttons_background">Change Background</button>
+        </div>
 
-    <h1 id="title">Drum 🥁 Kit</h1>
-    
-    <div class="set">
-        <button class="w drum">w</button>
-        <button class="a drum">a</button>
-        <button class="s drum">s</button>
-        <button class="d drum">d</button>
-        <button class="j drum">j</button>
-        <button class="k drum">k</button>
-        <button class="l drum">l</button>
     </div>
-
-    <footer>
-        Made by Pragnesh Amadavadi.<br> Made in Surat.
-    </footer>
-
-    <script src="index.js" type="text/javascript"></script>
-
+    <script src="index.js"></script>
 </body>
-
 </html>
